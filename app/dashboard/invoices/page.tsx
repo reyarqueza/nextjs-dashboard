@@ -3,6 +3,6 @@ async function delay(ms: number) {
 }
 
 export default async function Page() {
-  await delay(1500);
+  // await delay(1500);
   return <p>Invoices Page</p>;
 }
